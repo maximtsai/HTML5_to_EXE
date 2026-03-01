@@ -1,0 +1,30 @@
+{
+    "$schema": "https://raw.githubusercontent.com/tauri-apps/tauri/dev/crates/tauri-config-schema/schema.json",
+    "productName": "SpellWheel",
+    "version": "1.0.0",
+    "identifier": "com.spellwheel.game",
+    "build": {
+        "frontendDist": "../game"
+    },
+    "app": {
+        "windows": [
+            {
+                "title": "SpellWheel",
+                "width": 1600,
+                "height": 900,
+                "resizable": true,
+                "fullscreen": false
+            }
+        ],
+        "security": {
+            "csp": null
+        }
+    },
+    "bundle": {
+        "active": true,
+        "targets": "all",
+        "icon": [
+            "icons/icon.ico"
+        ]
+    }
+}

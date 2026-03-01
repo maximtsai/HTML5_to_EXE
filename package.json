@@ -1,0 +1,14 @@
+{
+  "name": "phaser-game-to-exe",
+  "version": "1.0.0",
+  "description": "Drop your Phaser 3 game into /game, run build.bat, get a Windows EXE",
+  "scripts": {
+    "tauri": "tauri",
+    "build": "tauri build",
+    "dev": "tauri dev"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  },
+  "license": "MIT"
+}
